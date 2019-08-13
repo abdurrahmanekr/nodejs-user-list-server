@@ -47,5 +47,3 @@ npm start
 Aşağıdaki postman koleksiyonunda tüm istekler vardır.
 
 [Postman Link](https://www.getpostman.com/collections/fd293d7fd271263593a4)
-
-POST
