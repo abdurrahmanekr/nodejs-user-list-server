@@ -1,6 +1,8 @@
 # Nodejs User List Server
 Bu proje [cdn-on-gitserver](https://www.npmjs.com/package/cdn-on-gitserver) kullanımına örnek olması için yazılmıştır.
 
+Bu projenin makalesi bu adrestedir: [https://avarekodcu.com/konu/43](https://avarekodcu.com/konu/43/ciddi-bir-sekilde-heroku-ve-gitlab-ile-ucretsiz-is-uygulamasi-gelistirilebilir-mi)
+
 ## Özet
 cdn-on-gitserver, GitLab'a bir dosyayı commit olarak atmak için kullanılır. Bu projede kullanıcı listesi ve kullanıcıların resimleri tutulur.
 
