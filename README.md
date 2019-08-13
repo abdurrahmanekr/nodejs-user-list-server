@@ -22,6 +22,19 @@ Bunları elde ettikten sonra [index.js](./index.js) dosyasının içindeki `<siz
 ### Veritabanı
 Veritabanı için postgresql kullanılmıştır. Ayarları [database.js](./database.js) dosyasından değiştirebilirsiniz.
 
+Sadece bir tabloya ihtiyaç duyar o tabloyu oluşturmak için aşağıdaki sql komutunu kullanabilirsiniz:
+
+```sql
+CREATE TABLE users (
+    id SERIAL NOT NULL,
+    name VARCHAR(255),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    avatar VARCHAR(255),
+    created_date TIMESTAMPTZ NOT NULL
+);
+```
+
+
 ## Başlatmak için
 Kurulumu yaptıktan sonra aşağıdaki komutu kullanarak başlatabilirsiniz.
 ```
