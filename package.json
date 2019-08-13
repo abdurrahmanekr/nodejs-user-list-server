@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Heroku ve GitLab ile Stream yönetimi",
   "main": "index.js",
-  "repository": "http://github.com/abdurrahmanekr/nodejs-user-list-server.git",
+  "repository": "https://github.com/abdurrahmanekr/nodejs-user-list-server.git",
   "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
   "license": "MIT",
   "private": false,
